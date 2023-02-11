@@ -1,0 +1,14 @@
+apiVersion: operators.coreos.com/v1alpha1
+kind: Subscription
+metadata:
+  # labels:
+  #   operators.coreos.com/runtime-fabric-operator.openshift-operators: ""
+  name: runtime-fabric-operator-sub
+  namespace: openshift-operators-rtf
+spec:
+  channel: alpha
+  installPlanApproval: Automatic
+  name: runtime-fabric-operator
+  source: certified-operators
+  sourceNamespace: openshift-marketplace
+  startingCSV: runtime-fabric-operator.v2.1.30
