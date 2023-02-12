@@ -6,4 +6,4 @@ resources:
 - operator-group-rtf.yaml
 - subscription-rtf.yaml
 
-#namespace: rtf
+namespace: openshift-operators-rtf
