@@ -5,4 +5,4 @@ resources:
 #- namespace.yaml
 - secret-rtf-pull-secret.yaml
 
-namespace: rtf
+#namespace: rtf
