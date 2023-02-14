@@ -1,0 +1,7 @@
+apiVersion: operators.coreos.com/v1
+kind: OperatorGroup
+metadata:
+  name: runtime-fabric-operator-og
+  namespace: openshift-operators-rtf
+spec:
+  upgradeStrategy: Default

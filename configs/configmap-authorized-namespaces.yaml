@@ -1,0 +1,8 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: authorized-namespaces
+  namespace: rtf
+data:
+  ADDITIONAL_NAMESPACE_1: "acme-dev1-rtf-apps"
+  ADDITIONAL_NAMESPACE_2: "acme1-dev1-rtf-apps"

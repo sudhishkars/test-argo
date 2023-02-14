@@ -1,0 +1,7 @@
+apiVersion: v1
+kind: Namespace
+metadata:
+    name: acme-dev1-rtf-apps
+    labels:
+        rtf.mulesoft.com/role: workers
+        rtf.mulesoft.com/envId: 23b1b0a9-8dd0-426d-b3e5-308f7c867b1e
